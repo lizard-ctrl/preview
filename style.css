@@ -1,0 +1,129 @@
+
+@font-face{
+    font-family: 'SnellOne';
+    src: url('font/SnellRoundhand-Script.woff\ copy');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'SnellOne';
+    src: url('font/SnellRoundhand-Script\ copy.svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    padding: 10px;
+    font-family: "SnellOne";
+    color: aliceblue;
+    background-color: blue;
+    font-size: 15px;
+    kerning: auto;
+}
+
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding: 4%;
+}
+
+#left{
+    border-style: solid;
+    border-color: aliceblue;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 20%;
+    height: 90%;
+    overflow: scroll;
+    transition: 1.5s;
+}
+#left:hover{
+    background-color: #8D86C9;
+}
+
+#right{
+    border-style: solid;
+    border-color: aliceblue;
+    position: absolute;
+    top: 5%;
+    left: 75%;
+    width: 20%;
+    height: 90%;
+    overflow: scroll;
+    transition: 1.5s;
+}
+#right:hover{
+    background-color: #8D86C9;
+}
+#top{
+    border-style: solid;
+    border-color: aliceblue;
+    position: absolute;
+    top: 25%;
+    left: 30%;
+    width: 40%;
+    height: 15%;
+    overflow: scroll;
+    transition: 1.5s;
+}
+#top:hover{
+    background-color: #8D86C9;
+}
+#bottom{
+    border-style: solid;
+    border-color: aliceblue;
+    position: absolute;
+    top: 45%;
+    left: 27%;
+    width: 46%;
+    height: 50%;
+    overflow: scroll;
+    transition: 1.5s;
+}
+#bottom:hover{
+    background-color: #8D86C9;
+}
+#header{
+    position: absolute;
+    top: 0%;
+    left: 31%;
+    text-align: center;
+}
+
+pre{
+    background-color: aliceblue;
+    color: blue;
+    position: absolute;
+    left: 4%;
+    width: 92%;
+}
+
+#headertwo{
+    font-size: 11px;
+    padding: 0px;
+    color: blue;
+    text-align:center;
+}
+h2{
+    background-color: aliceblue;
+}
+#textAreaOutput{
+    position: absolute;
+    right:6%;
+    top:10%;
+    padding:10px;
+    height:auto;
+    width:660px;
+    border:2px solid blue;
+    z-index:8 !important;
+    color:blue;
+    background-color: white;
+  }
+  #numberOfWords{
+    display:none;
+  }
+  #textAreaInput{
+    display:none;
+}

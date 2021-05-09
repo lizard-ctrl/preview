@@ -1,0 +1,48 @@
+<!DOCTYPE html><html><head>
+    <script src="p5.min.js"></script>
+    <script src="p5.dom.min.js"></script>
+    <script src="p5.sound.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="angelgreen.css">
+    <meta charset="utf-8">
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+
+  </head>
+  <body>
+    <div id="one">
+      <p id="intro">Hi welcome to your online angel I am here for you</p>
+        <button onclick="hideMe()" id="lets">I am here to listen</button>
+    </div>
+
+
+<div id="center" class="hide">
+<p>  ANGEL: (ღ˘⌣˘)♥ ℒ♡ⓥℯ ㄚ♡ⓤ anything you would like unload </p>
+
+<div id="gobutton" class="hide">
+  <p id="user">user: </p>
+
+  <p>ANGEL: (o´〰`o)♡*ﾟ✲*｡ are you ready for your message now </p>
+
+    <button onclick="outputFromModel(); hideMe()">i feel ready to receive</button>
+  </div>
+  <div>
+    <input type="text" class="input" id="input" placeholder="">
+</div>
+</div>
+
+<div id="markovadvice">
+  <div id="textAreaInput"></div>
+  <div id="textAreaOutput" class="hide"> </div>
+            <input type="number" name="numberOfWords" id="numberOfWords" value="150">
+</div>
+
+<div class="grid-container"><div class="grid-item"></div></div>
+
+
+      <script type="text/javascript" src="markov-text.js"></script>
+      <script type="text/javascript" src="advice.js"></script>
+      <script type="text/javascript" src="markov-text-example.js"></script>
+    <script src="angelgreen.js"></script>
+  
+
+</body></html>

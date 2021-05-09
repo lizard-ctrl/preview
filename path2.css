@@ -1,0 +1,68 @@
+@font-face{
+    font-family: 'SnellOne';
+    src: url('font/SnellRoundhand-Script.woff\ copy');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'SnellOne';
+    src: url('font/SnellRoundhand-Script\ copy.svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+   
+    font-family: "SnellOne";
+    color: aliceblue;
+    background-color: slateblue;
+    font-size: 15px;
+    kerning: auto;
+}
+h1{
+    font-size: 50px;
+    transition: 1.5s;
+    position: absolute;
+    top: 2%;
+    left: 10%;
+}
+h1:hover{
+    color: darkblue;
+    font-size: 60px;
+    left: 26%;
+}
+#angel{
+    position: absolute;
+    padding: 3%;
+    width: 50%;
+    height: 60%;
+    top: 25%;
+    left: 40%;
+    background-color: mediumslateblue;
+    border: solid 4px aliceblue;
+    overflow: scroll;
+}
+p{
+    font-size: 30px;
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+    transition: 1.5s;
+}
+
+a:hover{
+    color: darkblue;
+    font-size: 40px;
+}
+
+pre{
+    background-color: mediumslateblue;
+    color: white;
+    font-size: 10px;
+    position: absolute;
+    top: 40%;
+    left: 10%;
+}
