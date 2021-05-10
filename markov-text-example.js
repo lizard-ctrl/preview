@@ -1,4 +1,4 @@
-var markovExample = new MarkovText(3);
+var markovExample = new MarkovText(2);
 
 function outputFromModel() {
 	var node  = document.getElementById('textAreaInput'),

@@ -27,6 +27,9 @@ p{
     font-size: 20px;
     padding: 4%;
 }
+#help{
+    padding: 0% !important;
+}
 
 #left{
     border-style: solid;
@@ -62,8 +65,8 @@ p{
     border-color: aliceblue;
     position: absolute;
     top: 25%;
-    left: 30%;
-    width: 40%;
+    left: 27%;
+    width: 46%;
     height: 15%;
     overflow: scroll;
     transition: 1.5s;
@@ -126,4 +129,9 @@ h2{
   }
   #textAreaInput{
     display:none;
+}
+
+a{
+    color: blue;
+    font-size: x-large;
 }

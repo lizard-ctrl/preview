@@ -25,32 +25,38 @@ h1{
     transition: 1.5s;
     position: absolute;
     top: 2%;
-    left: 30%;
+    left: 26%;
 }
 h1:hover{
     color: darkgreen;
     font-size: 60px;
     left: 26%;
 }
+#angel{
+    position: absolute;
+    top: 40%;
+}
 #one{
 color: white;
 position: absolute;
+left: 10%;
 top: 30%;
-left: 15%;
+
 }
 #two{
     color: darkolivegreen;
     position: absolute;
-    top: 30%;
-    left: 35%;
+    left: 30%;
     transition: 1.5s;
+    top: 30%;
 }
 #two:hover{
     color: white;
 }
 #three{
     color: white;
-    position: absolute;
+    left: 50%;
     top: 30%;
-    left: 55%;
+    position: absolute;
+    
 }

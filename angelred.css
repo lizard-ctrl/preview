@@ -99,13 +99,13 @@ a:hover{
   top:10%;
   width:400px;
 }
-  #lets{
+  #second{
     position:absolute;
     left: 5%;
     top:20%;
     width:220px;
   }
-  #lets:hover{
+  #second:hover{
     background-color:red;
     color:white;
   }

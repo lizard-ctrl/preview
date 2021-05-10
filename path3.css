@@ -25,7 +25,7 @@ h1{
     transition: 1.5s;
     position: absolute;
     top: 2%;
-    left: 30%;
+    left: 26%;
 }
 h1:hover{
     color: darkmagenta;
@@ -33,24 +33,26 @@ h1:hover{
     left: 26%;
 }
 #one{
-color: white;
-position: absolute;
-top: 30%;
-left: 15%;
-}
-#two{
-    color: purple;
-    position: absolute;
-    top: 30%;
-    left: 35%;
-    transition: 1.5s;
-}
-#two:hover{
-    color: white;
-}
-#three{
     color: white;
     position: absolute;
+    left: 10%;
     top: 30%;
-    left: 55%;
-}
+    
+    }
+    #two{
+        color: purple;
+        position: absolute;
+        left: 30%;
+        transition: 1.5s;
+        top: 30%;
+    }
+    #two:hover{
+        color: white;
+    }
+    #three{
+        color: white;
+        left: 50%;
+        top: 30%;
+        position: absolute;
+        
+    }

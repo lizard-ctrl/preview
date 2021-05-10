@@ -42,7 +42,7 @@ function hideMe() {
 
 document.querySelector('#input').addEventListener('keypress', function (e) {
     if (e.key === 'Enter') {
-			document.getElementById("gobutton").classList.remove("hide");
+			document.getElementById("nextbutton").classList.remove("hide");
 
 			document.getElementById("input").value;
 			document.getElementById('user').innerHTML = document.getElementById('input').value;
@@ -51,10 +51,3 @@ document.querySelector('#input').addEventListener('keypress', function (e) {
     }
 });
 
-/*
-var fetchAdvice = function(adviceString){
-  var advice = `https://api.adviceslip.com/advice/search/that`;
-  var query =`https://cors-anywhere.herokuapp.com/`;
-  fetch(query)
-}
-*/
