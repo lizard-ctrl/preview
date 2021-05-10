@@ -5,27 +5,28 @@ html, body {
 canvas {
   display: block;
 }
-body{
-  background-image: url(images/fire-60.gif);
-  background-size: cover;
-  color: red;
-  font-size: 1.5rem;
-  font-weight: lighter;
-  line-height: 1.5rem;
-}
 *{
   text-transform: uppercase;
   margin:0px;
 
 }
+body{
+  background-image: url(../images/FarMediocreJuliabutterfly-size_restricted.gif);
+  background-size: cover;
+  color:darkgreen;
+  font-size: 1.5rem;
+  font-weight: lighter;
+  line-height: 1.5rem;
+}
+
 em{
   font-style: normal;
   text-decoration: underline;
 }
 
 button {
-  background-color: red;
-  border: 5px solid red;
+  background-color: darkgreen;
+  border: 5px solid darkgreen;
   color: white;
   text-align: center;
   text-decoration: none;
@@ -35,20 +36,20 @@ button {
   margin:15px;
   padding:5px;
   background-color:white;
-  color:red;
+  color:darkgreen;
   text-decoration: underline;
 }
 button:hover {
-  background-color: red;
+  background-color: darkgreen;
   color: white;
 
 }
 input[type=text] {
   height:30px;
   width:360px;
-  border: 5px solid red;
+  border: 5px solid darkgreen;
   margin:15px;
-  color:red;
+  color:darkgreen;
   font-family: serif;
   font-size: 1.5rem;
 }
@@ -57,13 +58,13 @@ p{
   background-color:white;
   padding:5px;
   margin:15px;
-  border: 5px solid red;
+  border: 5px solid darkgreen;
 }
 a:visited{
-  color:red;
+  color:darkgreen;
 }
 a:hover{
-  background-color:red;
+  background-color:darkgreen;
   color:white;
 }
 
@@ -105,8 +106,8 @@ a:hover{
     top:20%;
     width:220px;
   }
-  #second:hover{
-    background-color:red;
+  #lets:hover{
+    background-color:darkgreen;
     color:white;
   }
 
@@ -117,7 +118,7 @@ a:hover{
     left: 5%;
     top:10%;
     width:400px;
-    border: 5px solid red;
+    border: 5px solid darkgreen;
   }
 #textAreaOutput{
   position: absolute;
@@ -126,9 +127,9 @@ a:hover{
   padding:10px;
   height:auto;
   width:660px;
-  border:5px solid red;
+  border:5px solid darkgreen;
   z-index:8 !important;
-  color:red;
+  color:darkgreen;
   background-color: white;
 }
 #numberOfWords{

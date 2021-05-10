@@ -5,28 +5,27 @@ html, body {
 canvas {
   display: block;
 }
+body{
+  background-image: url(../images/fire-60.gif);
+  background-size: cover;
+  color: red;
+  font-size: 1.5rem;
+  font-weight: lighter;
+  line-height: 1.5rem;
+}
 *{
   text-transform: uppercase;
   margin:0px;
 
 }
-body{
-  background-image: url(images/FarMediocreJuliabutterfly-size_restricted.gif);
-  background-size: cover;
-  color:darkgreen;
-  font-size: 1.5rem;
-  font-weight: lighter;
-  line-height: 1.5rem;
-}
-
 em{
   font-style: normal;
   text-decoration: underline;
 }
 
 button {
-  background-color: darkgreen;
-  border: 5px solid darkgreen;
+  background-color: red;
+  border: 5px solid red;
   color: white;
   text-align: center;
   text-decoration: none;
@@ -36,20 +35,20 @@ button {
   margin:15px;
   padding:5px;
   background-color:white;
-  color:darkgreen;
+  color:red;
   text-decoration: underline;
 }
 button:hover {
-  background-color: darkgreen;
+  background-color: red;
   color: white;
 
 }
 input[type=text] {
   height:30px;
   width:360px;
-  border: 5px solid darkgreen;
+  border: 5px solid red;
   margin:15px;
-  color:darkgreen;
+  color:red;
   font-family: serif;
   font-size: 1.5rem;
 }
@@ -58,13 +57,13 @@ p{
   background-color:white;
   padding:5px;
   margin:15px;
-  border: 5px solid darkgreen;
+  border: 5px solid red;
 }
 a:visited{
-  color:darkgreen;
+  color:red;
 }
 a:hover{
-  background-color:darkgreen;
+  background-color:red;
   color:white;
 }
 
@@ -106,8 +105,8 @@ a:hover{
     top:20%;
     width:220px;
   }
-  #lets:hover{
-    background-color:darkgreen;
+  #second:hover{
+    background-color:red;
     color:white;
   }
 
@@ -118,7 +117,7 @@ a:hover{
     left: 5%;
     top:10%;
     width:400px;
-    border: 5px solid darkgreen;
+    border: 5px solid red;
   }
 #textAreaOutput{
   position: absolute;
@@ -127,9 +126,9 @@ a:hover{
   padding:10px;
   height:auto;
   width:660px;
-  border:5px solid darkgreen;
+  border:5px solid red;
   z-index:8 !important;
-  color:darkgreen;
+  color:red;
   background-color: white;
 }
 #numberOfWords{
